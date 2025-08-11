@@ -126,18 +126,6 @@ The backend exposes the following RESTful API endpoints:
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-A view of the main page, showcasing the list of events and the search/sort functionality.
-![Home Page](screenshots/homepage.png)
-
-### Create Event
-The form for creating a new event.
-![Create Event](screenshots/create-event.png)
-
----
-
 ## 🚀 Deployment
 
 ### Backend Deployment
@@ -161,4 +149,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 💡 Author
 
-**Rakesh Rocky** Full Stack Developer | React.js | Spring Boot | MySQL
+**Rakesh T** Full Stack Developer | React.js | Spring Boot | MySQL
