@@ -49,6 +49,34 @@ A full-stack event management application with CRUD functionality, search, and s
 - **MySQL Server** running locally
 
 ---
+Project Structure
+event-management/
+├── backend/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/yourapp/
+│   │   │   │   ├── controller/   # API endpoints
+│   │   │   │   ├── model/        # Data entities
+│   │   │   │   ├── repository/   # Database interfaces
+│   │   │   │   └── service/      # Business logic
+│   │   │   └── resources/
+│   │   │       ├── application.properties
+│   │   │       └── ...
+│   │   └── test/
+│   └── pom.xml                   # Maven config
+│
+└── frontend/
+    ├── src/
+    │   ├── assets/               # Static files
+    │   ├── components/           # Reusable components
+    │   ├── pages/                # View components
+    │   ├── App.jsx               # Main component
+    │   └── main.jsx              # Entry point
+    ├── index.html
+    ├── package.json
+    └── vite.config.js
+
+
 
 ### 1️⃣ Backend Setup (Spring Boot)
 
